@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <!--<title> Drop Down Sidebar Menu | CodingLab </title>-->
+    <link rel="stylesheet" href="style.css">
+    <!-- Boxiocns CDN Link -->
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!-- Font Awesome CSS -->
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+          <!-- Fontawesome CDN Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/1.0.0/css/font-awesome.css" integrity="sha512-YX9NLok9RLg+o5JkA2Whp1kPDCBCEUolTyYykJVOe1xcaTNebXU/x02TxV0LpVYqVNJV5NVjyoMW0jHnJWICKg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+       <!-- bootstrap -->
+
+     <!-- main page css -->
+      <link rel="stylesheet" href="css/main page.css">
+   </head>
+<body>
+
+<div class="sidebar close">
+    <div class="logo-details">
+     <!--  <i class='bx bxl-c-plus-plus'></i>-->
+      <span class="logo_name"><img src="pic/logo.png" width="180px" ></span> 
+      
+    </div>
+    <ul class="nav-links">
+      <li>
+        <a href="#">
+          <i class="fa-solid fa-house-chimney"></i>
+          <span class="link_name">Home</span>
+        </a>
+        <ul class="sub-menu blank">
+          <li><a class="link_name" href="#">Home</a></li>
+        </ul>
+      </li>
+      <li>
+        <div class="iocn-link">
+          <a href="#">
+            <i class="fa-solid fa-award"></i>
+            <span class="link_name">Recognition</span>
+          </a>
+         
+        </div>
+        <ul class="sub-menu">
+          <li><a class="link_name" href="#">Recognition</a></li>
+          
+        </ul>
+      </li>
+      <li>
+        <div class="iocn-link">
+          <a href="#">
+             <i class="fa-solid fa-shirt"></i>
+            <span class="link_name">T-shirt</span>
+          </a>
+        
+        </div>
+        <ul class="sub-menu">
+          <li><a class="link_name" href="#">T-shirt</a></li>
+          
+        </ul>
+      </li>
+      <li>
+        <a href="#">
+          <i class="fa-solid fa-credit-card"></i>
+          <span class="link_name">Disbursement</span>
+        </a>
+        <ul class="sub-menu blank">
+          <li><a class="link_name" href="#">Disbursement</a></li>
+        </ul>
+      </li>
+       <li>
+        <a href="Daily Attendance Sheet of LEVERnGEAR Limited (1).htm">
+          <i class="fa-regular fa-file"></i>
+          <span class="link_name">Attendance</span>
+        </a>
+        <ul class="sub-menu blank">
+          <li><a class="link_name" href="#"> Attendance</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="#">
+          <i class="fa-solid fa-user"></i>
+          <span class="link_name">HR</span>
+        </a>
+        <ul class="sub-menu blank">
+          <li><a class="link_name" href="#">HR</a></li>
+        </ul>
+      </li>
+      <li>
+        <div class="iocn-link">
+          <a href="#">
+           <i class="fa-regular fa-file-lines"></i>
+            <span class="link_name">Approval Request</span>
+          </a>
+         
+        </div>
+        <ul class="sub-menu">
+          <li><a class="link_name" href="#">Approval Request</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="#">
+         <i class="fa-regular fa-tv"></i>
+          <span class="link_name">IT</span>
+        </a>
+        <ul class="sub-menu blank">
+          <li><a class="link_name" href="#">IT</a></li>
+        </ul>
+      </li>
+     
+      <li>
+        <a href="report.html">
+          <i class="fa-regular fa-file"></i>
+          <span class="link_name">Reports</span>
+        </a>
+        <ul class="sub-menu blank">
+          <li><a class="link_name" href="#"> Reports</a></li>
+        </ul>
+      </li>
+
+    <li>
+        <a href="#">
+         <i class='bx bx-log-out' ></i>
+          <span class="link_name">Leave</span>
+        </a>
+        <ul class="sub-menu blank">
+          <li><a class="link_name" href="#">Leave</a></li>
+        </ul>
+      </li>   
+</ul>
+  </div>
+
+<!-- reports -->
+<section class="report">
+  
+
+
+<form action="">
+        <label><b>Reports</b></label>
+        <select name="report" class="re">
+<option value="US">Select Report</option>
+<option value="GR">Report 1</option>
+<option value="IN">Report 2</option>
+<option value="UK">Report 3</option>
+</select>
+
+    </form>
+<div class="r1">
+<form action="">
+        <label><b>Employee Types</b></label>
+        <select name="report" class="re">
+<option value="US">Select Types</option>
+<option value="GR">Report 1</option>
+<option value="IN">Report 2</option>
+<option value="UK">Report 3</option>
+</select>
+</div>
+    </form>
+    <div class="date">
+        <label><b>From Date - TO Date</b></label>
+ <input type="date"
+           id="test"
+           value="2019-07-02T25:32Z" class="from">
+           <input type="date"
+           id="test"
+           value="2019-07-02T25:32Z"  class="to">
+</div>
+<div class="s"><b >Select Employee</b></div>
+     <div class="box">
+    
+    <div class="search-box">
+      <input type="text" placeholder="All Employee...">
+      <label for="check" class="icon">
+        <i class="fas fa-search"></i>
+      </label>
+    </div>
+  </div>
+  <div class="learn-more1">
+<a href="#"><button class="bn632-hover bn26">Generate</button></a>
+</div>
+</section>
+
+
+
+
+
+
+
+
+
+
+  <script>
+  let arrow = document.querySelectorAll(".arrow");
+  for (var i = 0; i < arrow.length; i++) {
+    arrow[i].addEventListener("click", (e)=>{
+   let arrowParent = e.target.parentElement.parentElement;//selecting main parent of arrow
+   arrowParent.classList.toggle("showMenu");
+    });
+  }
+  let sidebar = document.querySelector(".sidebar");
+  let sidebarBtn = document.querySelector(".bx-menu");
+  console.log(sidebarBtn);
+  sidebarBtn.addEventListener("click", ()=>{
+    sidebar.classList.toggle("close");
+  });
+
+  var people = ['George Washington', 'John Adams', 'Thomas Jefferson', 'James Buchanan', ...];
+$('input[type=list]').w2field('list', { items: people });
+$('input[type=combo]').w2field('combo', { items: people });
+// if you need to get to the selected items, use:
+// $('#id').data('selected');
+
+options = {
+  items       : [],
+  selected    : {},           // selected item as {}
+  placeholder : '',
+  url         : null,         // url to pull data from
+  cacheMax    : 500,
+  maxWidth    : null,         // max width for input control to grow
+  maxHeight   : 350,          // max height for input control to grow
+  match       : 'contains',   // ['contains', 'is', 'begins with', 'ends with']
+  silent      : true,
+  onSearch    : null,         // when search needs to be performed
+  onRequest   : null,         // when request is submitted
+  onLoad      : null,         // when data is received
+  render      : null,         // render function for drop down item
+  showAll     : false,        // weather to apply filter or not when typing
+  markSearch  : true
+};
+  </script>
+</body>
+</html>
